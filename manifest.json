@@ -1,0 +1,160 @@
+{
+    "manifest_version": 3,
+    "name": "Amogus",
+    "description": "sus",
+    "version": "1.0",
+    "icons":
+    {
+        "512": "amogus.png"
+    },
+    "author": "Opera Software",
+    "developer":
+    {
+        "name": "Opera Software"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        {
+            "background_music":
+            [
+                "sounds/track1.mp3"
+            ],
+            "keyboard_sounds":
+            {
+                "TYPING_LETTER":
+                [
+                    "sounds/keyboard.mp3",
+                    "sounds/keyboard2.mp3",
+                    "sounds/keyboard3.mp3",
+                    "sounds/keyboard4.mp3",
+                    "sounds/keyboard5.mp3",
+                    "sounds/keyboard6.mp3",
+                    "sounds/keyboard7.mp3",
+                    "sounds/keyboard8.mp3",
+                    "sounds/keyboard9.mp3",
+                    "sounds/keyboard10.mp3"
+
+                ],
+                "TYPING_ENTER":
+                [
+                    "sounds/emergency.mp3"
+                ],
+                "TYPING_SPACE":
+                [
+                    "sounds/keyboard2.mp3"
+                ],
+                "TYPING_BACKSPACE":
+                [
+                    "sounds/keyboard2.mp3"
+                ]
+            },
+
+            "browser_sounds":
+            {
+                "SWITCH_TOGGLE":
+                [
+                    "sounds/spacebar.mp3"
+                ],
+                "TAB_CLOSE":
+                [
+                    "sounds/kill.mp3"
+                ],
+                "TAB_INSERT":
+                [
+                    "sounds/spacebar.mp3"
+                ],
+                "HOVER":
+                [
+                    "sounds/spacebar.mp3"
+                ],
+                "HOVER_UP":
+                [
+                    "sounds/spacebar.mp3"
+                ],
+                "CLICK":
+                [
+                    "sounds/kill.mp3"
+                ],
+                "LIMITER_ON":
+                [
+                    "sounds/kill.mp3"
+                ],
+                "LIMITER_OFF":
+                [
+                    "sounds/kill.mp3"
+                ],
+                "IMPORTANT_CLICK":
+                [
+                    "sounds/emergency.mp3"
+                ],
+                "FEATURE_SWITCH_ON":
+                [
+                    "sounds/kill.mp3"
+                ],
+                "FEATURE_SWITCH_OFF":
+                [
+                    "sounds/kill.mp3"
+                ],
+                "LEVEL_UPGRADE":
+                [
+                    "sounds/kill.mp3"
+                ],
+                "TAB_SLASH":
+                [
+                    "sounds/kill.mp3"
+                ]
+            },
+                "theme":
+                {
+                    "dark":
+                    {
+                        "gx_accent":
+                        {
+                            "h": 342,
+                            "s": 33,
+                            "l": 35
+                        },
+                        "gx_secondary_base":
+                        {
+                            "h": 307,
+                            "s": 16,
+                            "l": 16    
+                        }
+                    },
+                    "light":
+                    {
+                        "gx_accent":
+                        {
+                            "h": 112,
+                            "s": 80,
+                            "l": 44
+                        },
+                        "gx_secondary_base":
+                        {
+                            "h": 272,
+                            "s": 32,
+                            "l": 16
+                        }
+                    }
+                },
+                "wallpaper":
+            {
+                "dark":
+                {   
+                    "image": "wallpaperdark.jpg",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#757575"
+                },
+                "light":
+                {
+                    "image": "wallpaperlight.jpg",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#0B000E"
+                }
+            }
+        }
+        }
+        
+    }
